@@ -1,0 +1,88 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+/* App Container */
+.app {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Header */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Device Status */
+#deviceready {
+    margin-bottom: 20px;
+}
+
+.event {
+    font-size: 16px;
+    color: #888;
+    margin: 10px 0;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Image */
+#myImage {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    display: none; /* Hidden until an image is loaded */
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 600px) {
+    .app {
+        max-width: 500px;
+    }
+    
+    h1 {
+        font-size: 28px;
+    }
+
+    button {
+        font-size: 18px;
+        padding: 18px;
+    }
+}
