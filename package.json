@@ -1,5 +1,5 @@
 {
-  "name": "com.xyz.app",
+  "name": "garima.location.app",
   "displayName": "app",
   "version": "1.0.0",
   "description": "A sample Apache Cordova application that responds to the deviceready event.",
@@ -10,7 +10,7 @@
   "keywords": [
     "ecosystem:cordova"
   ],
-  "author": "Apache Cordova Team",
+  "author": "Garima Pandey",
   "license": "Apache-2.0",
   "dependencies": {
     "cordova-android": "13.0.0",
